@@ -1,0 +1,1282 @@
+/* Aqui comienza el css de fran*/
+.navinicial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.barra1 {
+    justify-content: center;
+}
+.navuno {
+    background-color: rgb(12, 93, 5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.navuno a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-right: 2px solid #bbb;
+    font-size: small;
+}
+
+.navdos {
+    background-image: url(../imagenes/logo.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+    
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.navdos a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+
+}
+
+.extra {
+    border-style: solid;
+    border-color: rgb(12, 93, 5);
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.extra2 {
+    border-style: solid;
+    border-color: rgb(12, 93, 5);
+    border-radius: 5px;
+    background-color: rgb(12, 93, 5);
+    margin: 10px;
+    font-weight: bold;
+
+}
+.navinicial a:hover{
+    color: #06c920;
+}
+
+
+.t-c:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+
+.footer{
+    background-color: #09472a;
+    
+}
+.piedepagina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    
+
+}
+
+.piedepagina1{
+    padding: 2%;
+    color: rgb(29, 167, 109);
+
+}
+.piedepagina1_2{
+    flex-direction: column;
+    color:rgb(204, 211, 208);
+}
+
+.piedepagina2{
+
+    padding: 2%;
+    color: rgb(29, 167, 109);
+    
+}
+
+.piedepagina2_2{
+    flex-direction: column;
+    color:rgb(204, 211, 208);
+}
+
+.piedepagina3{
+    color: rgb(29, 167, 109);
+    padding: 2%;
+}
+.piedepagina3_2{
+    color:rgb(204, 211, 208);
+    flex-direction: column;
+}
+
+.piedepagina4{
+    color:  rgb(29, 167, 109);
+    padding: 2%;
+
+
+    
+}
+
+.piedepagina3{
+
+    
+}
+
+
+
+
+    
+
+
+.piedepagina5{
+
+    color: rgb(29, 167, 109);
+    padding: 2%;
+}
+
+.final{
+    text-align: center;
+    color:rgb(142, 172, 147);
+
+
+    
+
+}
+
+
+
+/*Aqui comienda codigo david*/
+.logos {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.textocuenta {}
+
+.cuenta-crear {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+
+
+}
+
+.p-tc {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ap4 {
+   
+    width: 500px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.ap4-1 {
+    
+    width: 230px;
+    height: 250px;
+}
+
+.ap4-2 {
+    
+    width: 230px;
+    height: 250px;
+}
+.cuenta-crear2{
+    width: 100%;
+    height: 400px;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.submit5{
+    width:140px;
+    height: 40px;
+    background-color: rgb(1, 49, 1);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.txt-d {
+    background-color:  #83D2AC;
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+    font-size: 17px;
+    padding: 20px;
+    text-align: justify;
+    color: rgb(2, 56, 2);
+    
+}
+.h2txt-d{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+.c-t {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+    padding-top: 7px;
+}
+.c-t a{
+    cursor: pointer;
+    background-color: white;
+
+}
+.t-c {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 08px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.negrita {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.textblack {
+    color: black;
+}
+
+
+.textito {
+    width: 400px;
+    height: 60%;
+    text-align: justify;
+    font-size: 18px;
+    color: grey;
+    margin-top: 20px;
+
+    padding: 30px;
+
+
+}
+
+.icon {
+
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.padre {
+
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 100px;
+
+}
+
+.nombre {
+
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-top: 20px;
+
+    padding: 30px;
+
+
+
+
+
+}
+
+.nom {
+    width: 300px;
+    height: 350px;
+    background-color: aliceblue;
+
+
+}
+
+.info {
+
+    width: 300px;
+    height: 200px;
+
+
+
+}
+
+.viaje {
+
+    width: 200px;
+    height: 100px;
+
+}
+
+.mes {
+
+    width: 300px;
+
+}
+
+.padre2 {
+
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+
+}
+
+.año {
+
+    width: 300px;
+
+}
+
+.input {
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.title2 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: grey;
+    padding-left: 20px;
+
+}
+
+.fecha {
+    background-color: blue;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.slc {
+
+    width: 377px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+
+
+
+
+.textarea {
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.title {
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: grey;
+
+
+}
+
+.msg {
+
+    width: 600px;
+    height: 100px;
+
+
+
+}
+
+
+
+.padre4 {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.slc2 {
+
+    width: 180px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+
+
+.pform {
+    font-size: 18px;
+    color: grey;
+}
+
+.olvpsw {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.padre10 {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.padre11 {
+
+    width: 380px;
+    padding: 10px;
+}
+
+.f3 {
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+}
+
+.f4 {
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+}
+
+.f5 {
+    width: 380px;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.f6 {
+    width: 360px;
+    height: 100%;
+    padding: 10px;
+}
+
+.input1 {
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 365px;
+    height: 100px;
+}
+
+.input2 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(2, 31, 15);
+    color: white;
+}
+
+.input3 {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: rgb(8, 251, 145);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+.padretop2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.padretop3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.padretop4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.padretop5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.viajef {
+    background-color: lightcoral;
+    width: 400px;
+}
+
+.padretop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.f1 {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+.f2 {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+.titi {
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.padret {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.img-cuenta {
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+/*Termina codigo david*/
+/* Aqui empieza el css de Rubén*/
+.imagen_jirafa {
+    position: relative;
+    display: flex;
+}
+
+.voluntario_tanzania {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    flex-direction: column;
+}
+
+.imagen_jirafa::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Color negro con opacidad del 50% */
+    z-index: 0;
+}
+
+
+.voluntario_tanzania p {
+    color: white;
+
+}
+
+.bandera_titulo {
+    display: flex;
+    flex-direction: row
+}
+
+.voluntario {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.bandera {
+    display: flex
+}
+
+.voluntario p {
+    margin: 0;
+    color: rgb(79 184 137);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.tanzania p {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.tres_columnas {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.primera {
+    display: flex;
+    flex-direction: column;
+    border-radius: .75rem;
+    background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
+    box-shadow: 0 3px 08px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.segunda {
+    display: flex;
+    flex-direction: column;
+    border-radius: .75rem;
+    background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
+    box-shadow: 0 3px 08px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.tercera {
+    display: flex;
+    flex-direction: column;
+    border-radius: .75rem;
+    background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
+    box-shadow: 0 3px 08px rgba(0, 0, 0, 0.2);
+
+}
+
+.primera p {
+    text-align: center;
+    color: green;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.segunda p {
+    text-align: center;
+    color: green;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.tercera p {
+    text-align: center;
+    color: green;
+    margin: auto;
+
+}
+
+.primera h3 {
+    color: rgb(3, 62, 3);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.segunda h3 {
+    color: rgb(3, 62, 3);
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.texto2 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.texto2 p {
+    color: rgb(0, 27, 0);
+}
+
+.texto2 h2 {
+    color: rgb(4, 109, 23);
+}
+
+
+.lista_reflejos {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+/* Aqui termina el css de Rubén*/
+
+/*vero y alba*/
+.fotosnenes {
+    position: relative;
+}
+
+.fotosnenes2 {
+    position: absolute;
+    top: 2%;
+    padding: 15px;
+    right: 45%;
+    text-align: justify;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.weekendtraveloptions1 {
+    align-content: center;
+    text-align: justify;
+    padding: 10px;
+}
+
+.weekend1 {
+    color: rgb(16, 168, 16);
+    text-align: center;
+}
+
+.weekendtraveloptions2 {
+    display: flex;
+}
+
+.weekopcion1 {
+    background-color: rgb(252, 255, 251);
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.weekopcion2 {
+    background-color: rgb(255, 255, 254);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*vero y alba*/
+
+h1 {}
+
+.voluntario_tanzania p {
+    color: rgb(197, 248, 203);
+
+}
+
+.bandera_titulo {
+    display: flex;
+    flex-direction: row
+}
+
+.voluntario {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.bandera {
+    display: flex
+}
+
+.voluntario p {
+    margin: 0;
+    color: rgb(79 184 137);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.tanzania p {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.tres_columnas {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.primera {
+    display: flex;
+    flex-direction: column;
+    border-radius: .75rem;
+    background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
+    box-shadow: 0 3px 08px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.segunda {
+    display: flex;
+    flex-direction: column;
+    border-radius: .75rem;
+    background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
+    box-shadow: 0 3px 08px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.tercera {
+    display: flex;
+    flex-direction: column;
+    border-radius: .75rem;
+    background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
+    box-shadow: 0 3px 08px rgba(0, 0, 0, 0.2);
+
+}
+
+.primera p {
+    text-align: center;
+    color: green;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.segunda p {
+    text-align: center;
+    color: green;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.tercera p {
+    text-align: center;
+    color: green;
+    margin: auto;
+
+}
+
+.primera h3 {
+    color: rgb(3, 62, 3);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.segunda h3 {
+    color: rgb(3, 62, 3);
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+.lista_reflejos>h3 {
+    color: rgb(2, 57, 2);
+}
+
+.lista_reflejos>li {
+    font-size: .875rem;
+}
+
+/* Aqui termina el css de Rubén*/
+
+/*vero y alba*/
+.fotosnenes {
+    position: relative;
+    display: flex;
+
+
+}
+
+.fotosnenes2 {
+    position: absolute;
+
+    padding: 15px;
+    text-align: left;
+    align-content: center;
+
+
+}
+
+.weekendtraveloptions1 {
+    align-content: center;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.weekend1 {
+    color: rgb(16, 168, 16);
+    text-align: center;
+
+}
+
+.weekendtraveloptions2 {
+    display: flex;
+
+
+}
+
+.weekopcion1 {
+    background-color: rgb(252, 255, 251);
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.weekopcion2 {
+    background-color: rgb(255, 255, 254);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+/*vero y alba*/
+
+h1 {}
+
+
+.texto2 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.texto2 p {
+    color: rgb(0, 27, 0);
+}
+
+.texto2 h2 {
+    color: rgb(4, 109, 23);
+}
+
+/* Aqui termina el css de Rubén*/
+
+.fotosnenes {
+    background-image: url(/imagenes/fotosnenes.jpeg);
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    display: flex;
+
+}
+
+.fotosnenes2 {
+    padding: 15px;
+    text-align: left;
+    align-content: center;
+
+    opacity: 1;
+    z-index: 100;
+
+}
+
+.weekendtraveloptions1 {
+    align-content: center;
+    text-align: justify;
+    padding: 10px;
+}
+
+.weekend1 {
+    color: rgb(16, 168, 16);
+    text-align: center;
+
+}
+
+.weekendtraveloptions2 {
+    display: flex;
+
+
+}
+
+.weekopcion1 {
+    background-color: rgb(252, 255, 251);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.weekopcion2 {
+    background-color: rgb(255, 255, 254);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+h1 {
+
+    color: rgb(2, 58, 32);
+}
+
+h3 {
+    color: rgb(10, 119, 59);
+}
+
+
+/*Parte de piku e ivan*/
+
+main {
+
+    width: 100%;
+
+}
+
+.proyectos {
+
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.d1 {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.c1 {
+
+    background-color: white;
+    width: 25%;
+    text-align: center;
+
+}
+
+.c1 img {
+
+    width: 100%;
+
+}
+
+
+.c1 h2 {
+
+    color: rgb(16, 168, 16);
+
+}
+
+.c1 p {
+
+    width: 100%;
+
+}
+
+.imagenabout{
+
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.centradoabout{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(16, 168, 16);
+    color: white;
+}
+
+
+.infoabout{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.itabout{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.itabouti{
+
+    width: 100%;
+    display: flex;
+
+}
+.itabout h2{
+
+    color: rgb(16, 168, 16);
+
+}
+
+.itabout h4{
+
+    color:#83D2AC
+
+}
+
+.itaboutit{
+
+    width: 50%;
+
+}
+
+.itaboutii{
+
+    width: 50%;
+
+}
+
+.itaboutd{
+
+    width: 100%;
+    display: flex;
+
+}
+
+.itaboutdi {
+
+    width: 50%;
+
+}
+
+.itaboutdt{
+
+    width: 50%;
+    
+}
+
+.itabout h1{
+
+    text-align: center;
+    color: black;
+
+}
+.parteabajo2{
+    background-color: #09472a;
+}
+.frase1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.frase2{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.Numero{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+    color: white;
+}
+.Correo{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+   
+    
+}
+.botonabajo{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.h2m{
+    text-align: center;
+    color: aliceblue;
+}
+.correom{
+    text-decoration: none;
+    color: aliceblue;
+}
+.correon{
+    text-decoration: none;
+    color: aliceblue;
+}
+ 

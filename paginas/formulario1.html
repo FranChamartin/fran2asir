@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Aqui empieza el codigo para el formulario de David-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="es">
+    <title>Form</title>
+    <link rel="stylesheet" href="../Css/estilo.css">
+    <style>
+        body {
+            background-color: rgb(5, 62, 31);
+            min-width: 800px;
+        }
+
+        p {
+            color: white;
+            text-align: justify;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<header>
+
+    <nav class="navinicial">
+
+        <div class="navuno">
+            <a href="#home">Blog</a>
+            <a href="#news">Sobre nosotros</a>
+            <a href="#contact">Aplica ya</a>
+            <a href="./paginas/formulario3.html">Mi cuenta</a>
+        </div>
+
+        <div class="navdos">
+            <a href="#home">Destinos</a>
+            <a href="#news">Pasantes en el extranjero</a>
+            <a href="./paginas/proyectos.html">Proyectos</a>
+            <a href="#about">Grupos</a>
+            <a href="#about">Recursos</a>
+            <a href="#about">Sobre nosotros</a>
+            <a class="extra2" href="./formulario2.html">Aplica ya</a>
+        </div>
+    </nav>
+    
+</header>
+
+<body>
+    <div class="padret">
+        <div class="titi">
+            <h2>CONTACTA CON NOSOTROS</h2>
+        </div>
+    </div>
+    <div class="padretop">
+        <div class="padre10">
+            <div class="f1">
+                <form action="php.php">
+                    <p>Nombre:</p>
+                    <input class="input" type="text" name="nombre" id="nombre">
+                    <p>Email:</p>
+                    <input class="input" type="text" name="email" id="email">
+                </form>
+            </div>
+            <div class="f2">
+                <form action="php.php">
+                    <p>Apellido:</p>
+                    <input class="input" type="text" name="apellidos" id="apellidos">
+                    <p>Número:</p>
+                    <input class="input" value="+34 " type="text" name="numero" id="numero">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="padretop2">
+        <div class="padre11">
+            <form action="php.php">
+                <p>¿Donde te gustaria viajar?</p>
+                <select class="slc" name="viaje" id="viaje" size>
+                    <option value="España">España</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="Finlandia">Finlandia</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="padretop3">
+        <div class="f3">
+            <form action="php.php">
+                <select class="slc2" name="mes" id="mes">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </form>
+        </div>
+        <div class="f4">
+            <form action="php.php">
+                <input class="input" type="text" name="año" id="año" placeholder="2005">
+            </form>
+        </div>
+    </div>
+    <div class="padretop4">
+        <div class="f5">
+            <form action="php.php">
+                <p>Mensaje</p>
+                <input class="input1" type="text" name="msg" id="msg">
+            </form>
+        </div>
+    </div>
+    <div class="padretop5">
+        <div class="f6">
+            <p>Volunteering Solutions needs the contact information you provide to us to contact you about our products
+                and services. You may unsubscribe from these communications at any time. For information on how to
+                unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review
+                our Privacy Policy.</p>
+            <form action="php.php">
+                <input class="input2" type="submit" name="enviar" id="enviar" value="Enviar Formulario">
+            </form>
+        </div>
+    </div>
+</body>
+
+<!--Aqui termina el codigo de david-->
+
+</html>
